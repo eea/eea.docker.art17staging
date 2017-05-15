@@ -1,0 +1,6 @@
+1.6 (unreleased)
+-------------------
+
+1.5 (May 2017)
+-------------------
+* initial release [nituacor]
