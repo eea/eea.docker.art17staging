@@ -10,8 +10,7 @@ ENV EVENT_LOG_LEVEL=INFO \
 
 COPY src/versions.cfg src/base.cfg $ZOPE_HOME/
 
-RUN mkdir -p $ZOPE_HOME/products \
-    && mkdir -p $ZOPE_HOME/Extensions
+RUN mkdir -p $ZOPE_HOME/products
 
 RUN svn co https://svn.eionet.europa.eu/repositories/Zope/bundles/Eionet-Art17/trunk products
 
