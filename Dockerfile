@@ -14,7 +14,6 @@ RUN mkdir -p $ZOPE_HOME/products \
     && mkdir -p $ZOPE_HOME/Extensions
 
 RUN svn co https://svn.eionet.europa.eu/repositories/Zope/bundles/Eionet-Art17/trunk products
-RUN svn co https://svn.eionet.europa.eu/repositories/Zope/bundles/Eionet-Art17/extensions Extensions
 
 USER root
 RUN ./install.sh && chown -R 500:500 $ZOPE_HOME
