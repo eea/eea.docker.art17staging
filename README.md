@@ -1,6 +1,6 @@
 # eea.docker.art17staging
 
-Docker Zope Image used for the [EIONET Article 16 staging website](http://art17staging.eionet.europa.eu)
+Docker Zope Image used for the [EIONET Article 17 staging website](http://art17staging.eionet.europa.eu) and [EIONET Article 12 staging website](http://art12staging.eionet.europa.eu)
 
 
 ## Supported environment variables
