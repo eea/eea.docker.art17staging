@@ -8,7 +8,7 @@ ENV EVENT_LOG_LEVEL=INFO \
     SETUPTOOLS=28.6.0 \
     ZCBUILDOUT=2.5.3
 
-COPY src/versions.cfg src/base.cfg $ZOPE_HOME/
+COPY src/versions.cfg src/base.cfg src/sources.cfg $ZOPE_HOME/
 
 RUN mkdir -p $ZOPE_HOME/products \
     && mkdir -p $ZOPE_HOME/src
